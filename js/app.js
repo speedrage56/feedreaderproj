@@ -30,6 +30,8 @@ var allFeeds = [
 function init() {
     // Load the first feed we've defined (index of 0).
     loadFeed(0);
+    // console.log('feed is' + $('.feed').firstChild);
+    
 }
 
 /* This function performs everything necessary to load a
